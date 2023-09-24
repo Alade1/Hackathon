@@ -1,0 +1,158 @@
+/* navigation */
+
+body{
+    background-color: #150E28;
+}
+
+@font-face{
+    src: url('./ClashDisplay-Bold.otf') format('opentype');
+    src: url('./ClashDisplay-Extralight.otf') format('opentype');
+    src: url('./ClashDisplay-Light.otf') format('opentype');
+    src: url('./ClashDisplay-Medium.otf') format('opentype');
+    src: url('./ClashDisplay-Regular.otf') format('opentype');
+    src: url('./ClashDisplay-Semibold.otf') format('opentype');
+    font-family: 'ClashDisplay';
+}
+.logo{
+    font-family: 'ClashDisplay', 'sans-serif';
+    font-size: 36px;
+}
+.logo span{
+    color: #D434FE;
+}
+.logo{
+    color: white
+}
+
+
+header nav {
+    padding-left: 2rem;
+    padding-right: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #fff;
+    padding-bottom: 15px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+    
+}
+
+header nav ul li{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+header nav button{
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    padding: 12px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+/* HERO SECTION */
+
+.hero-section{
+    padding-left : 2rem;
+    margin-top: 20px;
+}
+.hero-section .hr{
+    margin-left: 520px;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.hero-second-section-one{
+    position: relative;
+    
+}
+.hero-second-section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap:20px;
+}
+.techhackaton{
+    font-family: 'ClashDisplay', 'sans-serif';
+   font-size: 60px;
+   color:white;
+
+}
+.participate{
+   width: 90%;
+   font-family: 'Montserrat', sans-serif;
+   color:white;
+   font-size: 17px;
+   font-weight: 800;
+   margin-top: -30px;
+
+}
+.techhackaton span{
+    color:#903AFF;
+    font-size: 60px;
+}
+.pin {
+    position: absolute;
+    top: 140px;
+    height: 60px;
+
+}
+.spark{
+    position: absolute;
+    top: 140px;
+    height: 60px;
+    left: 480px;
+
+}
+.glasses{
+    height:400px;
+}
+.globe-image{
+    position: relative;
+}
+.globe{
+    position: absolute;
+    left: 590px;
+    top:-430px;
+    height:400px;
+}
+.hero-section button{
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    padding: 12px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
